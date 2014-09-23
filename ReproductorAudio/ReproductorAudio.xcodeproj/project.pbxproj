@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F825013D19D232E0003EB0C0 /* demo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F825013C19D232E0003EB0C0 /* demo.mp3 */; };
+		F825013F19D23361003EB0C0 /* imagen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F825013E19D23361003EB0C0 /* imagen.jpg */; };
 		F82923D119CDE63100DA9F7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F82923D019CDE63100DA9F7C /* main.m */; };
 		F82923D419CDE63100DA9F7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F82923D319CDE63100DA9F7C /* AppDelegate.m */; };
 		F82923D719CDE63100DA9F7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82923D619CDE63100DA9F7C /* ViewController.m */; };
@@ -14,7 +16,7 @@
 		F82923DC19CDE63100DA9F7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F82923DB19CDE63100DA9F7C /* Images.xcassets */; };
 		F82923DF19CDE63100DA9F7C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82923DD19CDE63100DA9F7C /* LaunchScreen.xib */; };
 		F82923EB19CDE63100DA9F7C /* ReproductorAudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82923EA19CDE63100DA9F7C /* ReproductorAudioTests.m */; };
-		F82923F619CDE95800DA9F7C /* Homer-Simpsons-Music-Headphones-Anime.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F82923F419CDE95800DA9F7C /* Homer-Simpsons-Music-Headphones-Anime.jpg */; };
+		F82923F619CDE95800DA9F7C /* homero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F82923F419CDE95800DA9F7C /* homero.jpg */; };
 		F82923F719CDE95800DA9F7C /* musica.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F82923F519CDE95800DA9F7C /* musica.mp3 */; };
 		F82923FB19CDEA9C00DA9F7C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82923FA19CDEA9C00DA9F7C /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F825013C19D232E0003EB0C0 /* demo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = demo.mp3; sourceTree = "<group>"; };
+		F825013E19D23361003EB0C0 /* imagen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imagen.jpg; sourceTree = "<group>"; };
 		F82923CB19CDE63100DA9F7C /* ReproductorAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReproductorAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82923CF19CDE63100DA9F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F82923D019CDE63100DA9F7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -43,7 +47,7 @@
 		F82923E419CDE63100DA9F7C /* ReproductorAudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReproductorAudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F82923E919CDE63100DA9F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F82923EA19CDE63100DA9F7C /* ReproductorAudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReproductorAudioTests.m; sourceTree = "<group>"; };
-		F82923F419CDE95800DA9F7C /* Homer-Simpsons-Music-Headphones-Anime.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Homer-Simpsons-Music-Headphones-Anime.jpg"; sourceTree = "<group>"; };
+		F82923F419CDE95800DA9F7C /* homero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homero.jpg; sourceTree = "<group>"; };
 		F82923F519CDE95800DA9F7C /* musica.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musica.mp3; sourceTree = "<group>"; };
 		F82923FA19CDEA9C00DA9F7C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -72,7 +76,8 @@
 			children = (
 				F82923FC19CDEECF00DA9F7C /* Audios */,
 				F82923FA19CDEA9C00DA9F7C /* AVFoundation.framework */,
-				F82923F419CDE95800DA9F7C /* Homer-Simpsons-Music-Headphones-Anime.jpg */,
+				F82923F419CDE95800DA9F7C /* homero.jpg */,
+				F825013E19D23361003EB0C0 /* imagen.jpg */,
 				F82923CD19CDE63100DA9F7C /* ReproductorAudio */,
 				F82923E719CDE63100DA9F7C /* ReproductorAudioTests */,
 				F82923CC19CDE63100DA9F7C /* Products */,
@@ -132,6 +137,7 @@
 		F82923FC19CDEECF00DA9F7C /* Audios */ = {
 			isa = PBXGroup;
 			children = (
+				F825013C19D232E0003EB0C0 /* demo.mp3 */,
 				F82923F519CDE95800DA9F7C /* musica.mp3 */,
 			);
 			name = Audios;
@@ -219,9 +225,11 @@
 			files = (
 				F82923DA19CDE63100DA9F7C /* Main.storyboard in Resources */,
 				F82923F719CDE95800DA9F7C /* musica.mp3 in Resources */,
-				F82923F619CDE95800DA9F7C /* Homer-Simpsons-Music-Headphones-Anime.jpg in Resources */,
+				F825013F19D23361003EB0C0 /* imagen.jpg in Resources */,
+				F82923F619CDE95800DA9F7C /* homero.jpg in Resources */,
 				F82923DF19CDE63100DA9F7C /* LaunchScreen.xib in Resources */,
 				F82923DC19CDE63100DA9F7C /* Images.xcassets in Resources */,
+				F825013D19D232E0003EB0C0 /* demo.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +442,7 @@
 				F82923F019CDE63100DA9F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F82923F119CDE63100DA9F7C /* Build configuration list for PBXNativeTarget "ReproductorAudioTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +451,7 @@
 				F82923F319CDE63100DA9F7C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

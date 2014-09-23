@@ -17,6 +17,7 @@
 
 @property (strong, nonatomic) IBOutlet UIProgressView *progreso;
 
+@property (strong, nonatomic) IBOutlet UILabel *timerSong;
 - (IBAction)playButton:(id)sender;
 - (IBAction)pauseButton:(id)sender;
 - (IBAction)stopButton:(id)sender;
