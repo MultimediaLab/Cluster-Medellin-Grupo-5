@@ -13,6 +13,8 @@
 
 @property AVAudioPlayer * reproductor;
 
+@property (strong, nonatomic) IBOutlet UIImageView *imageCover;
+
 @property (strong, nonatomic) IBOutlet UIProgressView *progreso;
 
 - (IBAction)playButton:(id)sender;
@@ -21,6 +23,8 @@
 - (IBAction)volumeSlider:(id)sender;
 - (IBAction)switchOptions:(id)sender;
 - (IBAction)rateSlider:(id)sender;
+- (IBAction)nextSong:(id)sender;
+- (IBAction)prevSong:(id)sender;
 
 @property (strong, nonatomic) IBOutlet UIView *options;
 

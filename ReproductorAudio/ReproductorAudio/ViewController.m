@@ -30,7 +30,33 @@
     _reproductor.numberOfLoops = -1;
     _reproductor.delegate = self;
     [_reproductor prepareToPlay];
+    
+    _imageCover.image = [UIImage imageNamed:@"Homer-Simpsons-Music-Headphones-Anime.jpg"];
+    
 }
+
+-(void)loadSong:(NSString*)song andCover:(NSString*)image
+{
+
+
+}
+
+
+-(NSString*)convertTime:(float)time{
+    int minutes = (int)(time/60) % 60;
+    int seconds = (int)time % 60;
+    return [NSString stringWithFormat:@"%02i:%02i", minutes, seconds];
+}
+- (IBAction)nextSong:(id)sender {
+    [self loadSong:@"Cancion2" andCover:@"imagen2.jpg"];
+    
+}
+
+- (IBAction)prevSong:(id)sender {
+
+    
+}
+
 - (IBAction)playButton:(id)sender {
     [_reproductor play];
     progressTimer = [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(updateProgressBar) userInfo:nil repeats:YES];
@@ -67,6 +93,7 @@
 - (IBAction)rateSlider:(id)sender {
     _reproductor.rate = ((UISlider *)sender).value;
 }
+
 
 
 @end
