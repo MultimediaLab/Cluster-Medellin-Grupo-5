@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>71A338C6-ABA6-4C44-81AB-D91F6FBD1392</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DescargaProtocolosYDelegados</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3ED52BD9018A137EF9EEF7BEAC24058354B618F7</key>
+		<string>https://github.com/MultimediaLab/Cluster-Medellin.git</string>
+		<key>C2AC4996028F70D716DB126D895D5DF0B4AF104C</key>
+		<string>https://github.com/MultimediaLab/Cluster-Medellin-Grupo-5.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DescargaProtocolosYDelegados/DescargaProtocolosYDelegados.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3ED52BD9018A137EF9EEF7BEAC24058354B618F7</key>
+		<string>../../../..</string>
+		<key>C2AC4996028F70D716DB126D895D5DF0B4AF104C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MultimediaLab/Cluster-Medellin-Grupo-5.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C2AC4996028F70D716DB126D895D5DF0B4AF104C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3ED52BD9018A137EF9EEF7BEAC24058354B618F7</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C2AC4996028F70D716DB126D895D5DF0B4AF104C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Cluster-Medellin-Grupo-5</string>
+		</dict>
+	</array>
+</dict>
+</plist>
