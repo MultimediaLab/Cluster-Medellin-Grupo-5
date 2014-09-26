@@ -14,6 +14,7 @@
 @property id <FileDownloadDelegate> delegate;
 
 -(void) downloadInit:(NSString*)url withName:(NSString*)name;
+-(NSString*) deleteFile:(NSString*)file;
 
 
 

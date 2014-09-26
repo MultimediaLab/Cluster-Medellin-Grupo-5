@@ -25,7 +25,7 @@
     NSLog(@"Descarga en Memoria Exitosa");
 }
 -(void)downloadChangeLoading:(NSURLConnection *)connection didReceiveData:(NSData *)data andProgress:(float)progress{
-    NSLog(@"%f", progress);
+    _progressFile.progress = progress;
 }
 -(void)downloadInitLoading:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response{
     NSLog(@"Inicia Descarga");

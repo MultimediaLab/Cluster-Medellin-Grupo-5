@@ -82,6 +82,25 @@
     
     [conexion start];
 }
+-(NSString *)deleteFile:(NSString *)file{
+    NSArray * paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString * ruta = [paths objectAtIndex:0];
+    NSString * carpetaFotos = [ruta stringByAppendingPathComponent:@"/file"];
+    
+    NSString * rutaBorrar = [carpetaFotos stringByAppendingString:file];
+    
+    NSFileManager * borrar = [[NSFileManager alloc] init];
+    
+    NSError * error = nil;
+    
+    [borrar removeItemAtPath:rutaBorrar error:&error];
+    
+    if (error) {
+        NSLog(@"%@", error);
+    }
+    
+    return [NSString stringWithFormat:@"Borrado Exitoso!!"];
+}
 @end
 
 
