@@ -23,7 +23,9 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    secondView = [segue destinationViewController];
+    //secondView = [segue destinationViewController];
+    secondView = [[segue.destinationViewController viewControllers] objectAtIndex:0];
+    
     secondView.nameValue = _nameUser.text;
 }
 -(BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender{
