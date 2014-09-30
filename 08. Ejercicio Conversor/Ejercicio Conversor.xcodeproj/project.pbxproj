@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F87F2BC119AFE117000A2C56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87F2BC019AFE117000A2C56 /* Foundation.framework */; };
+		F87F2BC319AFE117000A2C56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87F2BC219AFE117000A2C56 /* CoreGraphics.framework */; };
+		F87F2BC519AFE117000A2C56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87F2BC419AFE117000A2C56 /* UIKit.framework */; };
+		F87F2BCB19AFE117000A2C56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F87F2BC919AFE117000A2C56 /* InfoPlist.strings */; };
+		F87F2BCD19AFE117000A2C56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F2BCC19AFE117000A2C56 /* main.m */; };
+		F87F2BD119AFE117000A2C56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F2BD019AFE117000A2C56 /* AppDelegate.m */; };
+		F87F2BD419AFE117000A2C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87F2BD219AFE117000A2C56 /* Main.storyboard */; };
+		F87F2BD719AFE117000A2C56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F2BD619AFE117000A2C56 /* ViewController.m */; };
+		F87F2BD919AFE117000A2C56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87F2BD819AFE117000A2C56 /* Images.xcassets */; };
+		F87F2BE019AFE117000A2C56 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87F2BDF19AFE117000A2C56 /* XCTest.framework */; };
+		F87F2BE119AFE117000A2C56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87F2BC019AFE117000A2C56 /* Foundation.framework */; };
+		F87F2BE219AFE117000A2C56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87F2BC419AFE117000A2C56 /* UIKit.framework */; };
+		F87F2BEA19AFE117000A2C56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F87F2BE819AFE117000A2C56 /* InfoPlist.strings */; };
+		F87F2BEC19AFE117000A2C56 /* Ejercicio_ConversorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F2BEB19AFE117000A2C56 /* Ejercicio_ConversorTests.m */; };
+		F87F2BF719AFE1F0000A2C56 /* Persona.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F2BF619AFE1F0000A2C56 /* Persona.m */; };
+		F87F2BFA19AFE1FA000A2C56 /* Divisa.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F2BF919AFE1FA000A2C56 /* Divisa.m */; };
+		F87F2BFD19AFE208000A2C56 /* DivisaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F2BFC19AFE208000A2C56 /* DivisaViewController.m */; };
+		F87F2C0019AFE212000A2C56 /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F2BFF19AFE212000A2C56 /* ConfigViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F87F2BE319AFE117000A2C56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F87F2BB519AFE117000A2C56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F87F2BBC19AFE117000A2C56;
+			remoteInfo = "Ejercicio Conversor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F87F2BBD19AFE117000A2C56 /* Ejercicio Conversor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ejercicio Conversor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87F2BC019AFE117000A2C56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F87F2BC219AFE117000A2C56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F87F2BC419AFE117000A2C56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F87F2BC819AFE117000A2C56 /* Ejercicio Conversor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ejercicio Conversor-Info.plist"; sourceTree = "<group>"; };
+		F87F2BCA19AFE117000A2C56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F87F2BCC19AFE117000A2C56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F87F2BCE19AFE117000A2C56 /* Ejercicio Conversor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ejercicio Conversor-Prefix.pch"; sourceTree = "<group>"; };
+		F87F2BCF19AFE117000A2C56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F87F2BD019AFE117000A2C56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F87F2BD319AFE117000A2C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F87F2BD519AFE117000A2C56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F87F2BD619AFE117000A2C56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F87F2BD819AFE117000A2C56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F87F2BDE19AFE117000A2C56 /* Ejercicio ConversorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ejercicio ConversorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87F2BDF19AFE117000A2C56 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F87F2BE719AFE117000A2C56 /* Ejercicio ConversorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ejercicio ConversorTests-Info.plist"; sourceTree = "<group>"; };
+		F87F2BE919AFE117000A2C56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F87F2BEB19AFE117000A2C56 /* Ejercicio_ConversorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ejercicio_ConversorTests.m; sourceTree = "<group>"; };
+		F87F2BF519AFE1F0000A2C56 /* Persona.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persona.h; sourceTree = "<group>"; };
+		F87F2BF619AFE1F0000A2C56 /* Persona.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persona.m; sourceTree = "<group>"; };
+		F87F2BF819AFE1FA000A2C56 /* Divisa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Divisa.h; sourceTree = "<group>"; };
+		F87F2BF919AFE1FA000A2C56 /* Divisa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Divisa.m; sourceTree = "<group>"; };
+		F87F2BFB19AFE208000A2C56 /* DivisaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivisaViewController.h; sourceTree = "<group>"; };
+		F87F2BFC19AFE208000A2C56 /* DivisaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivisaViewController.m; sourceTree = "<group>"; };
+		F87F2BFE19AFE212000A2C56 /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		F87F2BFF19AFE212000A2C56 /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F87F2BBA19AFE117000A2C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87F2BC319AFE117000A2C56 /* CoreGraphics.framework in Frameworks */,
+				F87F2BC519AFE117000A2C56 /* UIKit.framework in Frameworks */,
+				F87F2BC119AFE117000A2C56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87F2BDB19AFE117000A2C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87F2BE019AFE117000A2C56 /* XCTest.framework in Frameworks */,
+				F87F2BE219AFE117000A2C56 /* UIKit.framework in Frameworks */,
+				F87F2BE119AFE117000A2C56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F87F2BB419AFE117000A2C56 = {
+			isa = PBXGroup;
+			children = (
+				F87F2BFE19AFE212000A2C56 /* ConfigViewController.h */,
+				F87F2BFF19AFE212000A2C56 /* ConfigViewController.m */,
+				F87F2BFB19AFE208000A2C56 /* DivisaViewController.h */,
+				F87F2BFC19AFE208000A2C56 /* DivisaViewController.m */,
+				F87F2BF819AFE1FA000A2C56 /* Divisa.h */,
+				F87F2BF919AFE1FA000A2C56 /* Divisa.m */,
+				F87F2BF519AFE1F0000A2C56 /* Persona.h */,
+				F87F2BF619AFE1F0000A2C56 /* Persona.m */,
+				F87F2BC619AFE117000A2C56 /* Ejercicio Conversor */,
+				F87F2BE519AFE117000A2C56 /* Ejercicio ConversorTests */,
+				F87F2BBF19AFE117000A2C56 /* Frameworks */,
+				F87F2BBE19AFE117000A2C56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F87F2BBE19AFE117000A2C56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F87F2BBD19AFE117000A2C56 /* Ejercicio Conversor.app */,
+				F87F2BDE19AFE117000A2C56 /* Ejercicio ConversorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F87F2BBF19AFE117000A2C56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F87F2BC019AFE117000A2C56 /* Foundation.framework */,
+				F87F2BC219AFE117000A2C56 /* CoreGraphics.framework */,
+				F87F2BC419AFE117000A2C56 /* UIKit.framework */,
+				F87F2BDF19AFE117000A2C56 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F87F2BC619AFE117000A2C56 /* Ejercicio Conversor */ = {
+			isa = PBXGroup;
+			children = (
+				F87F2BCF19AFE117000A2C56 /* AppDelegate.h */,
+				F87F2BD019AFE117000A2C56 /* AppDelegate.m */,
+				F87F2BD219AFE117000A2C56 /* Main.storyboard */,
+				F87F2BD519AFE117000A2C56 /* ViewController.h */,
+				F87F2BD619AFE117000A2C56 /* ViewController.m */,
+				F87F2BD819AFE117000A2C56 /* Images.xcassets */,
+				F87F2BC719AFE117000A2C56 /* Supporting Files */,
+			);
+			path = "Ejercicio Conversor";
+			sourceTree = "<group>";
+		};
+		F87F2BC719AFE117000A2C56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F87F2BC819AFE117000A2C56 /* Ejercicio Conversor-Info.plist */,
+				F87F2BC919AFE117000A2C56 /* InfoPlist.strings */,
+				F87F2BCC19AFE117000A2C56 /* main.m */,
+				F87F2BCE19AFE117000A2C56 /* Ejercicio Conversor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F87F2BE519AFE117000A2C56 /* Ejercicio ConversorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F87F2BEB19AFE117000A2C56 /* Ejercicio_ConversorTests.m */,
+				F87F2BE619AFE117000A2C56 /* Supporting Files */,
+			);
+			path = "Ejercicio ConversorTests";
+			sourceTree = "<group>";
+		};
+		F87F2BE619AFE117000A2C56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F87F2BE719AFE117000A2C56 /* Ejercicio ConversorTests-Info.plist */,
+				F87F2BE819AFE117000A2C56 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F87F2BBC19AFE117000A2C56 /* Ejercicio Conversor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87F2BEF19AFE117000A2C56 /* Build configuration list for PBXNativeTarget "Ejercicio Conversor" */;
+			buildPhases = (
+				F87F2BB919AFE117000A2C56 /* Sources */,
+				F87F2BBA19AFE117000A2C56 /* Frameworks */,
+				F87F2BBB19AFE117000A2C56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ejercicio Conversor";
+			productName = "Ejercicio Conversor";
+			productReference = F87F2BBD19AFE117000A2C56 /* Ejercicio Conversor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F87F2BDD19AFE117000A2C56 /* Ejercicio ConversorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87F2BF219AFE117000A2C56 /* Build configuration list for PBXNativeTarget "Ejercicio ConversorTests" */;
+			buildPhases = (
+				F87F2BDA19AFE117000A2C56 /* Sources */,
+				F87F2BDB19AFE117000A2C56 /* Frameworks */,
+				F87F2BDC19AFE117000A2C56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F87F2BE419AFE117000A2C56 /* PBXTargetDependency */,
+			);
+			name = "Ejercicio ConversorTests";
+			productName = "Ejercicio ConversorTests";
+			productReference = F87F2BDE19AFE117000A2C56 /* Ejercicio ConversorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F87F2BB519AFE117000A2C56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Profesor;
+				TargetAttributes = {
+					F87F2BDD19AFE117000A2C56 = {
+						TestTargetID = F87F2BBC19AFE117000A2C56;
+					};
+				};
+			};
+			buildConfigurationList = F87F2BB819AFE117000A2C56 /* Build configuration list for PBXProject "Ejercicio Conversor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F87F2BB419AFE117000A2C56;
+			productRefGroup = F87F2BBE19AFE117000A2C56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F87F2BBC19AFE117000A2C56 /* Ejercicio Conversor */,
+				F87F2BDD19AFE117000A2C56 /* Ejercicio ConversorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F87F2BBB19AFE117000A2C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87F2BD919AFE117000A2C56 /* Images.xcassets in Resources */,
+				F87F2BCB19AFE117000A2C56 /* InfoPlist.strings in Resources */,
+				F87F2BD419AFE117000A2C56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87F2BDC19AFE117000A2C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87F2BEA19AFE117000A2C56 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F87F2BB919AFE117000A2C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87F2BF719AFE1F0000A2C56 /* Persona.m in Sources */,
+				F87F2BD719AFE117000A2C56 /* ViewController.m in Sources */,
+				F87F2BFD19AFE208000A2C56 /* DivisaViewController.m in Sources */,
+				F87F2BFA19AFE1FA000A2C56 /* Divisa.m in Sources */,
+				F87F2BD119AFE117000A2C56 /* AppDelegate.m in Sources */,
+				F87F2C0019AFE212000A2C56 /* ConfigViewController.m in Sources */,
+				F87F2BCD19AFE117000A2C56 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87F2BDA19AFE117000A2C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87F2BEC19AFE117000A2C56 /* Ejercicio_ConversorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F87F2BE419AFE117000A2C56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F87F2BBC19AFE117000A2C56 /* Ejercicio Conversor */;
+			targetProxy = F87F2BE319AFE117000A2C56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F87F2BC919AFE117000A2C56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F87F2BCA19AFE117000A2C56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F87F2BD219AFE117000A2C56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F87F2BD319AFE117000A2C56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F87F2BE819AFE117000A2C56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F87F2BE919AFE117000A2C56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F87F2BED19AFE117000A2C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F87F2BEE19AFE117000A2C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F87F2BF019AFE117000A2C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ejercicio Conversor/Ejercicio Conversor-Prefix.pch";
+				INFOPLIST_FILE = "Ejercicio Conversor/Ejercicio Conversor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F87F2BF119AFE117000A2C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ejercicio Conversor/Ejercicio Conversor-Prefix.pch";
+				INFOPLIST_FILE = "Ejercicio Conversor/Ejercicio Conversor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F87F2BF319AFE117000A2C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ejercicio Conversor.app/Ejercicio Conversor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ejercicio Conversor/Ejercicio Conversor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ejercicio ConversorTests/Ejercicio ConversorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F87F2BF419AFE117000A2C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ejercicio Conversor.app/Ejercicio Conversor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ejercicio Conversor/Ejercicio Conversor-Prefix.pch";
+				INFOPLIST_FILE = "Ejercicio ConversorTests/Ejercicio ConversorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F87F2BB819AFE117000A2C56 /* Build configuration list for PBXProject "Ejercicio Conversor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87F2BED19AFE117000A2C56 /* Debug */,
+				F87F2BEE19AFE117000A2C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87F2BEF19AFE117000A2C56 /* Build configuration list for PBXNativeTarget "Ejercicio Conversor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87F2BF019AFE117000A2C56 /* Debug */,
+				F87F2BF119AFE117000A2C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F87F2BF219AFE117000A2C56 /* Build configuration list for PBXNativeTarget "Ejercicio ConversorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87F2BF319AFE117000A2C56 /* Debug */,
+				F87F2BF419AFE117000A2C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F87F2BB519AFE117000A2C56 /* Project object */;
+}
