@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="xis-Cj-EUG">
+    <dependencies>
+        <deployment version="1808" identifier="iOS"/>
+        <development version="5100" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="DQA-tF-8WR">
+                                <rect key="frame" x="0.0" y="45" width="320" height="162"/>
+                                <date key="date" timeIntervalSinceReferenceDate="433810714.726206">
+                                    <!--2014-09-30 22:58:34 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="fechaCambio:" destination="vXZ-lx-hvc" eventType="valueChanged" id="ZQG-KZ-Ndd"/>
+                                </connections>
+                            </datePicker>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EG8-OY-GSD">
+                                <rect key="frame" x="-7" y="296" width="320" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vXZ-lx-hvc" id="Fux-GM-h56"/>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="XCo-eA-AUT"/>
+                                </connections>
+                            </pickerView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WuE-e8-NWQ">
+                                <rect key="frame" x="46" y="232" width="248" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="PHI-ah-AS5"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="pickerFechas" destination="DQA-tF-8WR" id="MPe-cw-ndV"/>
+                        <outlet property="pickerPaises" destination="EG8-OY-GSD" id="VA2-GM-aWn"/>
+                        <outlet property="textDate" destination="WuE-e8-NWQ" id="6LV-Sy-lFh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="372" y="-4"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="xL5-9q-cxH">
+            <objects>
+                <viewController id="Srs-Wu-6Rt" customClass="NavegadorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pz2-hS-K9i"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q2N-GF-MmA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rDS-DR-kBr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QYG-vq-35D">
+                                <rect key="frame" x="0.0" y="475" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem title="Html" id="Cy3-E2-602">
+                                        <connections>
+                                            <action selector="htmlButton:" destination="Srs-Wu-6Rt" id="zW3-Md-j97"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="4p5-3X-4VU"/>
+                                    <barButtonItem title="JS" id="LNK-CN-f9z">
+                                        <connections>
+                                            <action selector="jsButton:" destination="Srs-Wu-6Rt" id="OAG-LH-VWc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="8PA-E4-Gpl"/>
+                                    <barButtonItem title="Web" id="3lk-LR-CRm">
+                                        <connections>
+                                            <action selector="webButton:" destination="Srs-Wu-6Rt" id="WFW-a3-kEz"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="bgq-Ls-jD7"/>
+                                    <barButtonItem title="PDF" id="Gp5-4q-KS4">
+                                        <connections>
+                                            <action selector="pdfButton:" destination="Srs-Wu-6Rt" id="2Ag-gX-sS7"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Navegador Web" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" useAutomaticPreferredMaxLayoutWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aFE-BI-3ix">
+                                <rect key="frame" x="50" y="37" width="124" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="3RB-6r-gG5">
+                                <rect key="frame" x="271" y="38" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VOE-4d-y9t">
+                                <rect key="frame" x="0.0" y="72" width="320" height="403"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="QIS-tX-jkJ"/>
+                    <connections>
+                        <outlet property="animacion" destination="3RB-6r-gG5" id="eJb-vW-OfL"/>
+                        <outlet property="navegador" destination="VOE-4d-y9t" id="Uyf-G3-Fbh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zmt-qu-Eps" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="366" y="624"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="14W-Sl-5YN">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="xis-Cj-EUG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="fdV-rD-BUy">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="Ncg-A3-cOZ"/>
+                        <segue destination="Srs-Wu-6Rt" kind="relationship" relationship="viewControllers" id="GA5-pH-Fk2"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NRu-vh-cf3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-154" y="176"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
