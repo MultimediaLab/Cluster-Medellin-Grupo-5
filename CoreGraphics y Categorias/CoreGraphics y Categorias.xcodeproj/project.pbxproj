@@ -16,6 +16,7 @@
 		F82A2AE519DE067B00570F65 /* CoreGraphics_y_CategoriasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F82A2AE419DE067B00570F65 /* CoreGraphics_y_CategoriasTests.m */; };
 		F82A2AF119DE0A2B00570F65 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = F82A2AF019DE0A2B00570F65 /* UIColor+Random.m */; };
 		F82A2AF419DE0D9900570F65 /* PintorView.m in Sources */ = {isa = PBXBuildFile; fileRef = F82A2AF319DE0D9900570F65 /* PintorView.m */; };
+		F82A2AF619DE24B700570F65 /* icono.png in Resources */ = {isa = PBXBuildFile; fileRef = F82A2AF519DE24B700570F65 /* icono.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F82A2AF019DE0A2B00570F65 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
 		F82A2AF219DE0D9900570F65 /* PintorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PintorView.h; sourceTree = "<group>"; };
 		F82A2AF319DE0D9900570F65 /* PintorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PintorView.m; sourceTree = "<group>"; };
+		F82A2AF519DE24B700570F65 /* icono.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icono.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		F82A2ABC19DE067A00570F65 = {
 			isa = PBXGroup;
 			children = (
+				F82A2AF519DE24B700570F65 /* icono.png */,
 				F82A2AF219DE0D9900570F65 /* PintorView.h */,
 				F82A2AF319DE0D9900570F65 /* PintorView.m */,
 				F82A2AEF19DE0A2B00570F65 /* UIColor+Random.h */,
@@ -211,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F82A2AF619DE24B700570F65 /* icono.png in Resources */,
 				F82A2AD419DE067A00570F65 /* Main.storyboard in Resources */,
 				F82A2AD919DE067B00570F65 /* LaunchScreen.xib in Resources */,
 				F82A2AD619DE067A00570F65 /* Images.xcassets in Resources */,

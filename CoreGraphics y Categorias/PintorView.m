@@ -7,6 +7,7 @@
 //
 
 #import "PintorView.h"
+#import "UIColor+Random.h"
 
 @implementation PintorView
 
@@ -37,8 +38,51 @@
 }
 
 
-
-
+-(void)drawRect:(CGRect)rect{
+    
+    
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetLineWidth(context, 2.0f);
+    CGContextSetStrokeColorWithColor(context, _currentColor.CGColor);
+    CGContextSetFillColorWithColor(context, _currentColor.CGColor);
+    
+    switch (_shapeType) {
+        case kLineShape:
+            CGContextMoveToPoint(context, _firstTouch.x, _firstTouch.y);
+            CGContextAddLineToPoint(context, _lastTouch.x, _lastTouch.y);
+            CGContextStrokePath(context);
+            break;
+        case kEllipseShape:
+            
+            CGContextAddEllipseInRect(context, self.currentRect);
+            
+            //CGContextDrawPath(context, kCGPathStroke);
+            CGContextDrawPath(context, kCGPathFillStroke);
+            
+            break;
+        case kRectShape:
+            CGContextAddRect(context, self.currentRect);
+            CGContextDrawPath(context, kCGPathFillStroke);
+            break;
+        case kImageShape:
+        {
+            CGFloat horizontalOffset = _drawImage.size.width/2;
+            CGFloat verticalOffset = _drawImage.size.height/2;
+            CGPoint drawPoint = CGPointMake(_lastTouch.x-horizontalOffset, _lastTouch.y - verticalOffset);
+            [_drawImage drawAtPoint:drawPoint];
+        }
+        break;
+    }
+}
+-(id)initWithCoder:(NSCoder *)aDecoder{
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        _drawImage = [UIImage imageNamed:@"icono.png"];
+        _currentColor = [UIColor redColor];
+        
+    }
+    return self;
+}
 
 
 

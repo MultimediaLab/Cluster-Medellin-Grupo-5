@@ -25,6 +25,9 @@
                                     <segment title="Cuadrado"/>
                                     <segment title="Imagen"/>
                                 </segments>
+                                <connections>
+                                    <action selector="changeShape:" destination="vXZ-lx-hvc" eventType="valueChanged" id="tuW-1B-Dg1"/>
+                                </connections>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vvw-Wi-M42">
                                 <rect key="frame" x="16" y="520" width="288" height="29"/>

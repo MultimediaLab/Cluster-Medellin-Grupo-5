@@ -24,4 +24,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)changeShape:(id)sender {
+    UISegmentedControl * control = sender;
+    
+    [(PintorView*)self.view setShapeType:(int)[control selectedSegmentIndex]];
+}
 @end
