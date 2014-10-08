@@ -5,31 +5,31 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C4709FDE-2365-4AD4-8E3A-9443E4BA3493</string>
+	<string>5EE8407E-0C13-4671-A3DE-81C682E08E1A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Calendario</string>
+	<string>Mapas</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>16B3F7F648EF20BE793F953DAB8C082EEA49B6F4</key>
+		<string>https://github.com/MultimediaLab/Cluster-Medellin-Grupo-4.git</string>
 		<key>3ED52BD9018A137EF9EEF7BEAC24058354B618F7</key>
 		<string>https://github.com/MultimediaLab/Cluster-Medellin.git</string>
-		<key>C2AC4996028F70D716DB126D895D5DF0B4AF104C</key>
-		<string>https://github.com/MultimediaLab/Cluster-Medellin-Grupo-5.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>12. Calendario/Calendario.xcodeproj</string>
+	<string>Mapas/Mapas.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>16B3F7F648EF20BE793F953DAB8C082EEA49B6F4</key>
+		<string>../../..</string>
 		<key>3ED52BD9018A137EF9EEF7BEAC24058354B618F7</key>
 		<string>../../../..</string>
-		<key>C2AC4996028F70D716DB126D895D5DF0B4AF104C</key>
-		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/MultimediaLab/Cluster-Medellin-Grupo-5.git</string>
+	<string>https://github.com/MultimediaLab/Cluster-Medellin-Grupo-4.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C2AC4996028F70D716DB126D895D5DF0B4AF104C</string>
+	<string>16B3F7F648EF20BE793F953DAB8C082EEA49B6F4</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -44,9 +44,9 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C2AC4996028F70D716DB126D895D5DF0B4AF104C</string>
+			<string>16B3F7F648EF20BE793F953DAB8C082EEA49B6F4</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Cluster-Medellin-Grupo-5</string>
+			<string>Cluster-Medellin-Grupo-4</string>
 		</dict>
 	</array>
 </dict>

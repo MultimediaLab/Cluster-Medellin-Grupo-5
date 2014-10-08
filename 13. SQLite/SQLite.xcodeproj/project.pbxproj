@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F807941C19E4A17900555962 /* BuscarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F807941B19E4A17900555962 /* BuscarViewController.m */; };
+		F807941F19E4AA3900555962 /* ActualizarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F807941E19E4AA3900555962 /* ActualizarViewController.m */; };
+		F807942219E4AA4200555962 /* BorrarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F807942119E4AA4200555962 /* BorrarViewController.m */; };
 		F898A77A19E04C42006AB59A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F898A77919E04C42006AB59A /* main.m */; };
 		F898A77D19E04C42006AB59A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F898A77C19E04C42006AB59A /* AppDelegate.m */; };
 		F898A78019E04C42006AB59A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F898A77F19E04C42006AB59A /* ViewController.m */; };
@@ -30,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F807941A19E4A17900555962 /* BuscarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuscarViewController.h; sourceTree = "<group>"; };
+		F807941B19E4A17900555962 /* BuscarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuscarViewController.m; sourceTree = "<group>"; };
+		F807941D19E4AA3900555962 /* ActualizarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActualizarViewController.h; sourceTree = "<group>"; };
+		F807941E19E4AA3900555962 /* ActualizarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActualizarViewController.m; sourceTree = "<group>"; };
+		F807942019E4AA4200555962 /* BorrarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorrarViewController.h; sourceTree = "<group>"; };
+		F807942119E4AA4200555962 /* BorrarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorrarViewController.m; sourceTree = "<group>"; };
 		F898A77419E04C42006AB59A /* SQLite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F898A77819E04C42006AB59A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F898A77919E04C42006AB59A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -72,8 +81,14 @@
 		F898A76B19E04C42006AB59A = {
 			isa = PBXGroup;
 			children = (
+				F807942019E4AA4200555962 /* BorrarViewController.h */,
+				F807942119E4AA4200555962 /* BorrarViewController.m */,
+				F807941D19E4AA3900555962 /* ActualizarViewController.h */,
+				F807941E19E4AA3900555962 /* ActualizarViewController.m */,
 				F898A7A319E0510F006AB59A /* Clients.h */,
 				F898A7A419E0510F006AB59A /* Clients.m */,
+				F807941A19E4A17900555962 /* BuscarViewController.h */,
+				F807941B19E4A17900555962 /* BuscarViewController.m */,
 				F898A7A019E050F5006AB59A /* AdicionarViewController.h */,
 				F898A7A119E050F5006AB59A /* AdicionarViewController.m */,
 				F898A79F19E04ED0006AB59A /* Frameworks */,
@@ -241,6 +256,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F807942219E4AA4200555962 /* BorrarViewController.m in Sources */,
+				F807941F19E4AA3900555962 /* ActualizarViewController.m in Sources */,
+				F807941C19E4A17900555962 /* BuscarViewController.m in Sources */,
 				F898A78019E04C42006AB59A /* ViewController.m in Sources */,
 				F898A7A219E050F5006AB59A /* AdicionarViewController.m in Sources */,
 				F898A7A519E0510F006AB59A /* Clients.m in Sources */,
@@ -438,6 +456,7 @@
 				F898A79919E04C42006AB59A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F898A79A19E04C42006AB59A /* Build configuration list for PBXNativeTarget "SQLiteTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +465,7 @@
 				F898A79C19E04C42006AB59A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

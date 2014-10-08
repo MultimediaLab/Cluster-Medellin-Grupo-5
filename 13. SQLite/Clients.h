@@ -27,4 +27,13 @@
 //Adicionar
 -(void)insertClientInDatabase;
 
+//Buscar
+-(void)searchClientInDatabase;
+
+//Actualizar
+-(void)updateClientInDatabase;
+
+//Borrar
+-(void)deleteClientInDatabase;
+
 @end
