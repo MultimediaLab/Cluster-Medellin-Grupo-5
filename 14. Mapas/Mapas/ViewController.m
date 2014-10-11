@@ -29,7 +29,25 @@
     [locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
     [_worldView setShowsUserLocation:YES];
     
+    [locationManager startUpdatingLocation];
+    //[locationManager stopUpdatingLocation];
+    
 }
+
+-(void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation{
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance([userLocation coordinate], 500, 500);
+    [_worldView setRegion:region animated:YES];
+    
+    //Simulador 6.235925, -75.57513
+}
+-(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations{
+    
+    CLLocation * newLocation = [locations lastObject];
+    NSLog(@"%@", newLocation);
+    MiPunto * punto = [[MiPunto alloc] initWithCoordinate:[newLocation coordinate] title:@"Manejando"];
+    [_worldView addAnnotation:punto];
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -37,5 +55,17 @@
 }
 
 - (IBAction)changeMap:(id)sender {
+    int index = (int)[sender selectedSegmentIndex];
+    switch (index) {
+        case 0:
+            [_worldView setMapType:MKMapTypeStandard];
+            break;
+        case 1:
+            [_worldView setMapType:MKMapTypeSatellite];
+            break;
+        case 2:
+            [_worldView setMapType:MKMapTypeHybrid];
+            break;
+    }
 }
 @end
