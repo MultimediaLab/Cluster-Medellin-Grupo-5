@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8124E3919E9674F00A08ECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8124E3819E9674F00A08ECA /* main.m */; };
+		F8124E3C19E9674F00A08ECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8124E3B19E9674F00A08ECA /* AppDelegate.m */; };
+		F8124E3F19E9674F00A08ECA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8124E3E19E9674F00A08ECA /* ViewController.m */; };
+		F8124E4219E9674F00A08ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8124E4019E9674F00A08ECA /* Main.storyboard */; };
+		F8124E4419E9674F00A08ECA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8124E4319E9674F00A08ECA /* Images.xcassets */; };
+		F8124E4719E9674F00A08ECA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8124E4519E9674F00A08ECA /* LaunchScreen.xib */; };
+		F8124E5319E9674F00A08ECA /* CamaraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8124E5219E9674F00A08ECA /* CamaraTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8124E4D19E9674F00A08ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8124E2B19E9674F00A08ECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8124E3219E9674F00A08ECA;
+			remoteInfo = Camara;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8124E3319E9674F00A08ECA /* Camara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8124E3719E9674F00A08ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8124E3819E9674F00A08ECA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8124E3A19E9674F00A08ECA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8124E3B19E9674F00A08ECA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8124E3D19E9674F00A08ECA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8124E3E19E9674F00A08ECA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8124E4119E9674F00A08ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8124E4319E9674F00A08ECA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8124E4619E9674F00A08ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F8124E4C19E9674F00A08ECA /* CamaraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamaraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8124E5119E9674F00A08ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8124E5219E9674F00A08ECA /* CamaraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CamaraTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8124E3019E9674F00A08ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8124E4919E9674F00A08ECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8124E2A19E9674F00A08ECA = {
+			isa = PBXGroup;
+			children = (
+				F8124E3519E9674F00A08ECA /* Camara */,
+				F8124E4F19E9674F00A08ECA /* CamaraTests */,
+				F8124E3419E9674F00A08ECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8124E3419E9674F00A08ECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8124E3319E9674F00A08ECA /* Camara.app */,
+				F8124E4C19E9674F00A08ECA /* CamaraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8124E3519E9674F00A08ECA /* Camara */ = {
+			isa = PBXGroup;
+			children = (
+				F8124E3A19E9674F00A08ECA /* AppDelegate.h */,
+				F8124E3B19E9674F00A08ECA /* AppDelegate.m */,
+				F8124E3D19E9674F00A08ECA /* ViewController.h */,
+				F8124E3E19E9674F00A08ECA /* ViewController.m */,
+				F8124E4019E9674F00A08ECA /* Main.storyboard */,
+				F8124E4319E9674F00A08ECA /* Images.xcassets */,
+				F8124E4519E9674F00A08ECA /* LaunchScreen.xib */,
+				F8124E3619E9674F00A08ECA /* Supporting Files */,
+			);
+			path = Camara;
+			sourceTree = "<group>";
+		};
+		F8124E3619E9674F00A08ECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8124E3719E9674F00A08ECA /* Info.plist */,
+				F8124E3819E9674F00A08ECA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8124E4F19E9674F00A08ECA /* CamaraTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8124E5219E9674F00A08ECA /* CamaraTests.m */,
+				F8124E5019E9674F00A08ECA /* Supporting Files */,
+			);
+			path = CamaraTests;
+			sourceTree = "<group>";
+		};
+		F8124E5019E9674F00A08ECA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8124E5119E9674F00A08ECA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8124E3219E9674F00A08ECA /* Camara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8124E5619E9674F00A08ECA /* Build configuration list for PBXNativeTarget "Camara" */;
+			buildPhases = (
+				F8124E2F19E9674F00A08ECA /* Sources */,
+				F8124E3019E9674F00A08ECA /* Frameworks */,
+				F8124E3119E9674F00A08ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Camara;
+			productName = Camara;
+			productReference = F8124E3319E9674F00A08ECA /* Camara.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8124E4B19E9674F00A08ECA /* CamaraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8124E5919E9674F00A08ECA /* Build configuration list for PBXNativeTarget "CamaraTests" */;
+			buildPhases = (
+				F8124E4819E9674F00A08ECA /* Sources */,
+				F8124E4919E9674F00A08ECA /* Frameworks */,
+				F8124E4A19E9674F00A08ECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8124E4E19E9674F00A08ECA /* PBXTargetDependency */,
+			);
+			name = CamaraTests;
+			productName = CamaraTests;
+			productReference = F8124E4C19E9674F00A08ECA /* CamaraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8124E2B19E9674F00A08ECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Profesor;
+				TargetAttributes = {
+					F8124E3219E9674F00A08ECA = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F8124E4B19E9674F00A08ECA = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F8124E3219E9674F00A08ECA;
+					};
+				};
+			};
+			buildConfigurationList = F8124E2E19E9674F00A08ECA /* Build configuration list for PBXProject "Camara" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8124E2A19E9674F00A08ECA;
+			productRefGroup = F8124E3419E9674F00A08ECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8124E3219E9674F00A08ECA /* Camara */,
+				F8124E4B19E9674F00A08ECA /* CamaraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8124E3119E9674F00A08ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8124E4219E9674F00A08ECA /* Main.storyboard in Resources */,
+				F8124E4719E9674F00A08ECA /* LaunchScreen.xib in Resources */,
+				F8124E4419E9674F00A08ECA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8124E4A19E9674F00A08ECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8124E2F19E9674F00A08ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8124E3F19E9674F00A08ECA /* ViewController.m in Sources */,
+				F8124E3C19E9674F00A08ECA /* AppDelegate.m in Sources */,
+				F8124E3919E9674F00A08ECA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8124E4819E9674F00A08ECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8124E5319E9674F00A08ECA /* CamaraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8124E4E19E9674F00A08ECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8124E3219E9674F00A08ECA /* Camara */;
+			targetProxy = F8124E4D19E9674F00A08ECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8124E4019E9674F00A08ECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8124E4119E9674F00A08ECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8124E4519E9674F00A08ECA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8124E4619E9674F00A08ECA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8124E5419E9674F00A08ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8124E5519E9674F00A08ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8124E5719E9674F00A08ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Camara/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F8124E5819E9674F00A08ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Camara/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F8124E5A19E9674F00A08ECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CamaraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camara.app/Camara";
+			};
+			name = Debug;
+		};
+		F8124E5B19E9674F00A08ECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CamaraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Camara.app/Camara";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8124E2E19E9674F00A08ECA /* Build configuration list for PBXProject "Camara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8124E5419E9674F00A08ECA /* Debug */,
+				F8124E5519E9674F00A08ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8124E5619E9674F00A08ECA /* Build configuration list for PBXNativeTarget "Camara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8124E5719E9674F00A08ECA /* Debug */,
+				F8124E5819E9674F00A08ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8124E5919E9674F00A08ECA /* Build configuration list for PBXNativeTarget "CamaraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8124E5A19E9674F00A08ECA /* Debug */,
+				F8124E5B19E9674F00A08ECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8124E2B19E9674F00A08ECA /* Project object */;
+}
