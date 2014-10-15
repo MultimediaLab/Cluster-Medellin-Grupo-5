@@ -28,11 +28,14 @@
                             <outletCollection property="gestureRecognizers" destination="9rg-zT-kbQ" appends="YES" id="CfX-eL-JF7"/>
                             <outletCollection property="gestureRecognizers" destination="5gu-7W-CVR" appends="YES" id="x1t-Rx-UOA"/>
                             <outletCollection property="gestureRecognizers" destination="yne-d2-BBf" appends="YES" id="vrV-BR-649"/>
+                            <outletCollection property="gestureRecognizers" destination="FfB-wQ-JBo" appends="YES" id="Kxf-vA-jR2"/>
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="mico" destination="6hM-g9-Bab" id="shh-TC-Fxl"/>
                         <outlet property="panGesture" destination="yne-d2-BBf" id="k99-5f-15J"/>
                         <outlet property="pinchGesture" destination="5gu-7W-CVR" id="PxY-2N-E9s"/>
+                        <outlet property="rotationGesture" destination="FfB-wQ-JBo" id="Kzp-sL-M7u"/>
                         <outlet property="tapGesture" destination="9rg-zT-kbQ" id="47F-cf-cs8"/>
                     </connections>
                 </viewController>
@@ -52,6 +55,11 @@
                         <action selector="handlePan:" destination="vXZ-lx-hvc" id="wkT-AB-hXe"/>
                     </connections>
                 </panGestureRecognizer>
+                <rotationGestureRecognizer id="FfB-wQ-JBo">
+                    <connections>
+                        <action selector="handleRotation:" destination="vXZ-lx-hvc" id="SFm-Qc-Iea"/>
+                    </connections>
+                </rotationGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="130" y="280"/>
         </scene>

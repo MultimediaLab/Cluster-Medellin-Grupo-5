@@ -24,6 +24,12 @@
 @property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *panGesture;
 - (IBAction)handlePan:(id)sender;
 
+//ROTATION
+@property (strong, nonatomic) IBOutlet UIRotationGestureRecognizer *rotationGesture;
+- (IBAction)handleRotation:(id)sender;
+
+@property (strong, nonatomic) IBOutlet UIImageView *mico;
+
 
 //AUDIOS
 @property AVAudioPlayer * jejeje;

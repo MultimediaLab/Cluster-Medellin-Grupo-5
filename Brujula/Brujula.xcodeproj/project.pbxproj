@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8C0854A19EDDD9400AF0164 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0854919EDDD9400AF0164 /* main.m */; };
+		F8C0854D19EDDD9400AF0164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0854C19EDDD9400AF0164 /* AppDelegate.m */; };
+		F8C0855019EDDD9400AF0164 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0854F19EDDD9400AF0164 /* ViewController.m */; };
+		F8C0855319EDDD9400AF0164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8C0855119EDDD9400AF0164 /* Main.storyboard */; };
+		F8C0855519EDDD9400AF0164 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C0855419EDDD9400AF0164 /* Images.xcassets */; };
+		F8C0855819EDDD9400AF0164 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8C0855619EDDD9400AF0164 /* LaunchScreen.xib */; };
+		F8C0856419EDDD9400AF0164 /* BrujulaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0856319EDDD9400AF0164 /* BrujulaTests.m */; };
+		F8C0856E19EDDDD700AF0164 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C0856D19EDDDD700AF0164 /* CoreLocation.framework */; };
+		F8C0857019EDDE5C00AF0164 /* compass-clipart-Compass-Clip-Art-816.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8C0856F19EDDE5C00AF0164 /* compass-clipart-Compass-Clip-Art-816.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8C0855E19EDDD9400AF0164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8C0853C19EDDD9400AF0164 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C0854319EDDD9400AF0164;
+			remoteInfo = Brujula;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8C0854419EDDD9400AF0164 /* Brujula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brujula.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C0854819EDDD9400AF0164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C0854919EDDD9400AF0164 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8C0854B19EDDD9400AF0164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8C0854C19EDDD9400AF0164 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8C0854E19EDDD9400AF0164 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8C0854F19EDDD9400AF0164 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8C0855219EDDD9400AF0164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8C0855419EDDD9400AF0164 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F8C0855719EDDD9400AF0164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F8C0855D19EDDD9400AF0164 /* BrujulaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrujulaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C0856219EDDD9400AF0164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C0856319EDDD9400AF0164 /* BrujulaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrujulaTests.m; sourceTree = "<group>"; };
+		F8C0856D19EDDDD700AF0164 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F8C0856F19EDDE5C00AF0164 /* compass-clipart-Compass-Clip-Art-816.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "compass-clipart-Compass-Clip-Art-816.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8C0854119EDDD9400AF0164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C0856E19EDDDD700AF0164 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C0855A19EDDD9400AF0164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8C0853B19EDDD9400AF0164 = {
+			isa = PBXGroup;
+			children = (
+				F8C0856D19EDDDD700AF0164 /* CoreLocation.framework */,
+				F8C0854619EDDD9400AF0164 /* Brujula */,
+				F8C0856019EDDD9400AF0164 /* BrujulaTests */,
+				F8C0854519EDDD9400AF0164 /* Products */,
+				F8C0856F19EDDE5C00AF0164 /* compass-clipart-Compass-Clip-Art-816.jpg */,
+			);
+			sourceTree = "<group>";
+		};
+		F8C0854519EDDD9400AF0164 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8C0854419EDDD9400AF0164 /* Brujula.app */,
+				F8C0855D19EDDD9400AF0164 /* BrujulaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8C0854619EDDD9400AF0164 /* Brujula */ = {
+			isa = PBXGroup;
+			children = (
+				F8C0854B19EDDD9400AF0164 /* AppDelegate.h */,
+				F8C0854C19EDDD9400AF0164 /* AppDelegate.m */,
+				F8C0854E19EDDD9400AF0164 /* ViewController.h */,
+				F8C0854F19EDDD9400AF0164 /* ViewController.m */,
+				F8C0855119EDDD9400AF0164 /* Main.storyboard */,
+				F8C0855419EDDD9400AF0164 /* Images.xcassets */,
+				F8C0855619EDDD9400AF0164 /* LaunchScreen.xib */,
+				F8C0854719EDDD9400AF0164 /* Supporting Files */,
+			);
+			path = Brujula;
+			sourceTree = "<group>";
+		};
+		F8C0854719EDDD9400AF0164 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8C0854819EDDD9400AF0164 /* Info.plist */,
+				F8C0854919EDDD9400AF0164 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F8C0856019EDDD9400AF0164 /* BrujulaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8C0856319EDDD9400AF0164 /* BrujulaTests.m */,
+				F8C0856119EDDD9400AF0164 /* Supporting Files */,
+			);
+			path = BrujulaTests;
+			sourceTree = "<group>";
+		};
+		F8C0856119EDDD9400AF0164 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8C0856219EDDD9400AF0164 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8C0854319EDDD9400AF0164 /* Brujula */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C0856719EDDD9400AF0164 /* Build configuration list for PBXNativeTarget "Brujula" */;
+			buildPhases = (
+				F8C0854019EDDD9400AF0164 /* Sources */,
+				F8C0854119EDDD9400AF0164 /* Frameworks */,
+				F8C0854219EDDD9400AF0164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brujula;
+			productName = Brujula;
+			productReference = F8C0854419EDDD9400AF0164 /* Brujula.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8C0855C19EDDD9400AF0164 /* BrujulaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C0856A19EDDD9400AF0164 /* Build configuration list for PBXNativeTarget "BrujulaTests" */;
+			buildPhases = (
+				F8C0855919EDDD9400AF0164 /* Sources */,
+				F8C0855A19EDDD9400AF0164 /* Frameworks */,
+				F8C0855B19EDDD9400AF0164 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8C0855F19EDDD9400AF0164 /* PBXTargetDependency */,
+			);
+			name = BrujulaTests;
+			productName = BrujulaTests;
+			productReference = F8C0855D19EDDD9400AF0164 /* BrujulaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8C0853C19EDDD9400AF0164 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Profesor;
+				TargetAttributes = {
+					F8C0854319EDDD9400AF0164 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F8C0855C19EDDD9400AF0164 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F8C0854319EDDD9400AF0164;
+					};
+				};
+			};
+			buildConfigurationList = F8C0853F19EDDD9400AF0164 /* Build configuration list for PBXProject "Brujula" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8C0853B19EDDD9400AF0164;
+			productRefGroup = F8C0854519EDDD9400AF0164 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8C0854319EDDD9400AF0164 /* Brujula */,
+				F8C0855C19EDDD9400AF0164 /* BrujulaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8C0854219EDDD9400AF0164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C0855319EDDD9400AF0164 /* Main.storyboard in Resources */,
+				F8C0857019EDDE5C00AF0164 /* compass-clipart-Compass-Clip-Art-816.jpg in Resources */,
+				F8C0855819EDDD9400AF0164 /* LaunchScreen.xib in Resources */,
+				F8C0855519EDDD9400AF0164 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C0855B19EDDD9400AF0164 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8C0854019EDDD9400AF0164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C0855019EDDD9400AF0164 /* ViewController.m in Sources */,
+				F8C0854D19EDDD9400AF0164 /* AppDelegate.m in Sources */,
+				F8C0854A19EDDD9400AF0164 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C0855919EDDD9400AF0164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C0856419EDDD9400AF0164 /* BrujulaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8C0855F19EDDD9400AF0164 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8C0854319EDDD9400AF0164 /* Brujula */;
+			targetProxy = F8C0855E19EDDD9400AF0164 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8C0855119EDDD9400AF0164 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8C0855219EDDD9400AF0164 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8C0855619EDDD9400AF0164 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8C0855719EDDD9400AF0164 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8C0856519EDDD9400AF0164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8C0856619EDDD9400AF0164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8C0856819EDDD9400AF0164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Brujula/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8C0856919EDDD9400AF0164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Brujula/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F8C0856B19EDDD9400AF0164 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BrujulaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brujula.app/Brujula";
+			};
+			name = Debug;
+		};
+		F8C0856C19EDDD9400AF0164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BrujulaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brujula.app/Brujula";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8C0853F19EDDD9400AF0164 /* Build configuration list for PBXProject "Brujula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C0856519EDDD9400AF0164 /* Debug */,
+				F8C0856619EDDD9400AF0164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C0856719EDDD9400AF0164 /* Build configuration list for PBXNativeTarget "Brujula" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C0856819EDDD9400AF0164 /* Debug */,
+				F8C0856919EDDD9400AF0164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8C0856A19EDDD9400AF0164 /* Build configuration list for PBXNativeTarget "BrujulaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C0856B19EDDD9400AF0164 /* Debug */,
+				F8C0856C19EDDD9400AF0164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8C0853C19EDDD9400AF0164 /* Project object */;
+}
